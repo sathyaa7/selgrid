@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: testspack.GoogleTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.952 sec <<< FAILURE!
+test1(testspack.GoogleTest)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testspack.DriverFactory.getDriver(DriverFactory.java:44)
+	at testspack.GoogleTest.test1(GoogleTest.java:16)
+
