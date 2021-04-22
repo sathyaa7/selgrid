@@ -17,5 +17,6 @@ public class GoogleTest extends DriverFactory {
         driver.get("https://www.demoqa.com/");
         Assert.assertTrue("Banner is visible",driver.findElement(By.xpath("//img[@class=\"banner-image\"]")).isDisplayed());
         driver.findElement(By.xpath("//div[@class=\"card-up\"]")).click();
+        System.out.println("Done :)");
     }
 }
