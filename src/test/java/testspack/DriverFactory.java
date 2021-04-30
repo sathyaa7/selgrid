@@ -22,7 +22,7 @@ private ThreadLocal<RemoteWebDriver> rwd=new ThreadLocal<RemoteWebDriver>();
     @BeforeMethod
     @Parameters(value={"browser"})
     public void setDriver(String browserType) {
-        System.out.println("starts");
+        System.out.println("startss");
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability("browserName", browserType);
 
